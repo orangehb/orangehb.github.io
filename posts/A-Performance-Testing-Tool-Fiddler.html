@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>A Performance Testing Tool-Fiddler | My secret garden</title><link rel="stylesheet" type="text/css" href="/css/normalize.css"><link rel="stylesheet" type="text/css" href="/css/highlight.css"><link rel="stylesheet" type="text/css" href="/css/very-simple.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"></head><body><!-- include the sidebar--><!-- include ./includes/sidebar.jade--><!-- Blog title and subtitle--><header><div class="container header"><a id="logo" href="/." class="title">My secret garden</a><span class="subtitle">记录一切成长与美好</span><label id="toggle-menu" for="menu" onclick><i class="fa fa-bars"></i></label></div></header><!-- use checkbox hack for toggle nav-bar on small screens--><input id="menu" type="checkbox"><!-- Navigation Links--><nav id="nav"><div class="container"><a href="/" class="sidebar-nav-item">Home</a><a href="/archives" class="sidebar-nav-item">Archives</a></div></nav><div id="header-margin-bar"></div><div class="wrapper"><div class="container post-header"><h1>A Performance Testing Tool-Fiddler</h1></div></div><article><div class="container post"><p>FIddler is an HTTP debugging proxy server application and can be used for performance testing. Fiddler allows you to inspect traffic, set breakpoints, and ‘fiddle’ with incoming or outgoing data.</p>
+<p>By doing research, Fiddler reminds me different tool for network management such as wireshark and PRTG 其他还有很多我都用过，现在名字怎么一个也想不起来了。。。<br>很简单的原理，主要是理解各种traffic，protocol原理。在项目上用此于time out时间的test以及monitoring。It’s easy to troubleshooting common HTTP error by the status code.</p>
+<p>Reference:</p>
+<ul>
+<li><p>2xx:Success (This class of status codes indicates that the server successfully accepted the client request.)<br>201:Created<br>202:Accepted<br>203:Non-Autoritative Information<br>204:No Content<br>205:Reset Content<br>206:Partial Content</p>
+</li>
+<li><p>3xx:Redirection (The client browser must take more action to fulfill the request.)<br>301:Moved Permanently<br>302:Object Moved<br>304:Not modified<br>307:Temporary Redirect</p>
+</li>
+<li><p>4xx:Client Error (An error occurs, and the client appears to be at fault.)<br>400:Bad request<br>401:Unautorized/Access denied<br>403:Forbidden<br>404:Not Found<br>406:Client browser does not accept the MIME type of the requested page.<br>407:Proxy authentication required.<br>412:Precondition failed.<br>413:Request entity too large.<br>414:Request-URI too long.<br>415:Unsupported media type.<br>416:Requested range not satisfiable.<br>417:Execution failed.<br>423:Locked error.</p>
+</li>
+<li><p>5xx: Internal Server Error. (The server cannot complete the request because it encounters an error.)<br>500:Internal server error<br>501:Header values specify a config that is not implemented<br>502:Web server received an invalid response while acting as a gateway or proxy<br>503:Service unavailable<br>504:Gateway timeout<br>505:HTTP version not supported</p>
+</li>
+</ul>
+<p>#credstash#fugue/credstash#<a href="http://blog.runnable.com/post/145362675491/distributing-docker-cache-across-hosts#" target="_blank" rel="external">http://blog.runnable.com/post/145362675491/distributing-docker-cache-across-hosts#</a> <a href="http://mavericktester.com/" target="_blank" rel="external">http://mavericktester.com/</a> #<a href="https://concourse.ci/#hectcastro/terraform-aws-vpc" target="_blank" rel="external">https://concourse.ci/#hectcastro/terraform-aws-vpc</a> #terraform#<a href="http://jargon.js.org/" target="_blank" rel="external">http://jargon.js.org/</a> #NATgateway#pluralsight</p>
+</div><div class="container"><hr><div data-thread-key="posts/A-Performance-Testing-Tool-Fiddler.html" data-title="A Performance Testing Tool-Fiddler" data-url="http://orangehb.com/posts/A-Performance-Testing-Tool-Fiddler.html" class="ds-thread"></div><script>var duoshuoQuery = {short_name:'orangehb'};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script></div></article><footer id="footer"><div class="container"><div class="bar"><div class="social"><a href="/atom.xml" target="_blank"><i class="fa fa-rss"></i></a></div><div class="footer">© 2017 <a href="/" rel="nofollow">My secret garden</a>. Powered by <a rel="nofollow" target="_blank" href="https://hexo.io">Hexo</a>. Theme <a target="_blank" href="https://github.com/lotabout/very-simple">very-simple</a>.</div></div></div></footer><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.css"><script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script><script src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script><script>$(document).ready(function() {
+    $(".fancybox").fancybox();
+});
+</script></body></html>
