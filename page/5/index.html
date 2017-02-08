@@ -6,54 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://orangehb.com">
-  <title>Day 3 of 2017 | My secret garden</title>
+  <title>My secret garden</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="The year of reading 多读书的一年：#我的目标是多读书多思考每2周读一本书；1）shoe dog by Phil Knight2）Talent is Overrated by Geoff Colvin3) creativity, inc by ED Catmull
-
-坚持早起早睡
-
-certifications
-
-旅行计划
-
-坚持健身
-
-365 diary
-
-继续修炼强大的内心">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Day 3 of 2017">
-<meta property="og:url" content="http://orangehb.com/2017/01/03/Day-3-of-2017/index.html">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="My secret garden">
+<meta property="og:url" content="http://orangehb.com/page/5/index.html">
 <meta property="og:site_name" content="My secret garden">
-<meta property="og:description" content="The year of reading 多读书的一年：#我的目标是多读书多思考每2周读一本书；1）shoe dog by Phil Knight2）Talent is Overrated by Geoff Colvin3) creativity, inc by ED Catmull
-
-坚持早起早睡
-
-certifications
-
-旅行计划
-
-坚持健身
-
-365 diary
-
-继续修炼强大的内心">
-<meta property="og:updated_time" content="2017-01-29T11:15:00.000Z">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Day 3 of 2017">
-<meta name="twitter:description" content="The year of reading 多读书的一年：#我的目标是多读书多思考每2周读一本书；1）shoe dog by Phil Knight2）Talent is Overrated by Geoff Colvin3) creativity, inc by ED Catmull
-
-坚持早起早睡
-
-certifications
-
-旅行计划
-
-坚持健身
-
-365 diary
-
-继续修炼强大的内心">
+<meta name="twitter:title" content="My secret garden">
+<meta name="twitter:description">
   
     <link rel="alternative" href="/atom.xml" title="My secret garden" type="application/atom+xml">
   
@@ -193,71 +156,45 @@ certifications
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Day-3-of-2017" class="article article-type-post " itemscope itemprop="blogPost">
+            
+  
+    <article id="post-A-Performance-Testing-Tool-Fiddler" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 class="article-title" itemprop="name">
-      Day 3 of 2017
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/30/A-Performance-Testing-Tool-Fiddler/">A Performance Testing Tool-Fiddler</a>
     </h1>
   
 
         
-        <a href="/2017/01/03/Day-3-of-2017/" class="archive-article-date">
-  	<time datetime="2017-01-02T22:26:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-03</time>
+        <a href="/2016/06/30/A-Performance-Testing-Tool-Fiddler/" class="archive-article-date">
+  	<time datetime="2016-06-30T06:53:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-30</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ol>
-<li><p>The year of reading 多读书的一年：#我的目标是多读书多思考<br>每2周读一本书；<br>1）shoe dog by Phil Knight<br>2）Talent is Overrated by Geoff Colvin<br>3) creativity, inc by ED Catmull</p>
+        <p>FIddler is an HTTP debugging proxy server application and can be used for performance testing. Fiddler allows you to inspect traffic, set breakpoints, and ‘fiddle’ with incoming or outgoing data.</p>
+<p>By doing research, Fiddler reminds me different tool for network management such as wireshark and PRTG 其他还有很多我都用过，现在名字怎么一个也想不起来了。。。<br>很简单的原理，主要是理解各种traffic，protocol原理。在项目上用此于time out时间的test以及monitoring。It’s easy to troubleshooting common HTTP error by the status code.</p>
+<p>Reference:</p>
+<ul>
+<li><p>2xx:Success (This class of status codes indicates that the server successfully accepted the client request.)<br>201:Created<br>202:Accepted<br>203:Non-Autoritative Information<br>204:No Content<br>205:Reset Content<br>206:Partial Content</p>
 </li>
-<li><p>坚持早起早睡</p>
+<li><p>3xx:Redirection (The client browser must take more action to fulfill the request.)<br>301:Moved Permanently<br>302:Object Moved<br>304:Not modified<br>307:Temporary Redirect</p>
 </li>
-<li><p>certifications</p>
+<li><p>4xx:Client Error (An error occurs, and the client appears to be at fault.)<br>400:Bad request<br>401:Unautorized/Access denied<br>403:Forbidden<br>404:Not Found<br>406:Client browser does not accept the MIME type of the requested page.<br>407:Proxy authentication required.<br>412:Precondition failed.<br>413:Request entity too large.<br>414:Request-URI too long.<br>415:Unsupported media type.<br>416:Requested range not satisfiable.<br>417:Execution failed.<br>423:Locked error.</p>
 </li>
-<li><p>旅行计划</p>
+<li><p>5xx: Internal Server Error. (The server cannot complete the request because it encounters an error.)<br>500:Internal server error<br>501:Header values specify a config that is not implemented<br>502:Web server received an invalid response while acting as a gateway or proxy<br>503:Service unavailable<br>504:Gateway timeout<br>505:HTTP version not supported</p>
 </li>
-<li><p>坚持健身</p>
-</li>
-<li><p>365 diary</p>
-</li>
-<li><p>继续修炼强大的内心</p>
-</li>
-<li><p>好好工作好好积累</p>
-</li>
-</ol>
-<hr>
-<p>subscribed the courses;<br>talked with a TWer DevOps:<br>-certification is necessary；<br>-be a ‘louder’ person;</p>
-<h2 id="talks"><a href="#talks" class="headerlink" title="-talks;"></a>-talks;</h2><p>#01走路上班 #01走路下班 #keepitup #前方路正好，莫欺少年鲜</p>
+</ul>
+<p>#credstash#fugue/credstash#<a href="http://blog.runnable.com/post/145362675491/distributing-docker-cache-across-hosts#" target="_blank" rel="external">http://blog.runnable.com/post/145362675491/distributing-docker-cache-across-hosts#</a> <a href="http://mavericktester.com/" target="_blank" rel="external">http://mavericktester.com/</a> #<a href="https://concourse.ci/#hectcastro/terraform-aws-vpc" target="_blank" rel="external">https://concourse.ci/#hectcastro/terraform-aws-vpc</a> #terraform#<a href="http://jargon.js.org/" target="_blank" rel="external">http://jargon.js.org/</a> #NATgateway#pluralsight</p>
 
       
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -268,7 +205,7 @@ certifications
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">成长</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Tech</a>
         		</li>
       		
 		</ul>
@@ -277,94 +214,152 @@ certifications
       
 
       
-
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2016/06/30/A-Performance-Testing-Tool-Fiddler/">read more >></a>
+        </p>
       
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
-        </div>
-      </div>
-    </span>
-  </div>
-</div>
 
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://orangehb.com/2017/01/03/Day-3-of-2017/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
 
+
+
+
+
+
+
+
   
-<nav id="article-nav">
-  
-    <a href="/2017/01/04/Day-4-of-2017/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
+    <article id="post-the-day-learning-JS-at-work" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
         
-          Day 4 of 2017
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/28/the-day-learning-JS-at-work/">Day learning JS at work</a>
+    </h1>
+  
+
         
-      </div>
-    </a>
+        <a href="/2016/06/28/the-day-learning-JS-at-work/" class="archive-article-date">
+  	<time datetime="2016-06-28T03:24:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Before: 博客搭好了总得开始写点什么了吧？虽然最近悉尼的天气冷的让我只想冬眠，可是每天还是要有所进步。和客户一起成立了一个tea club，然后还有了slack channel和github repo。和技术男一起连喝茶都可以这么专业，有颗女汉子❤️的我表示很开心很enjoy.</p>
+<h2 id="alwaystrying-alwayspositive-JS-unittest-SME-Dashboard-stores-FormViewStore-js-Moment-LibforJS"><a href="#alwaystrying-alwayspositive-JS-unittest-SME-Dashboard-stores-FormViewStore-js-Moment-LibforJS" class="headerlink" title="#alwaystrying#alwayspositive#JS#unittest#SME-Dashboard #stores.FormViewStore.js#Moment(LibforJS)"></a>#alwaystrying#alwayspositive#JS#unittest#SME-Dashboard #stores.FormViewStore.js#Moment(LibforJS)</h2><p>哈哈，可以发点什么好开心：）</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Tech</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2016/06/28/the-day-learning-JS-at-work/">read more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/26/hello-world/">Hello World</a>
+    </h1>
+  
+
+        
+        <a href="/2016/06/26/hello-world/" class="archive-article-date">
+  	<time datetime="2016-06-26T12:55:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2016/06/26/hello-world/">read more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
   
   
-    <a href="/2016/12/22/the-second-Xmas-at-TW-在TW的第二个圣诞/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">the second Xmas at TW-在TW的第二个圣诞</div>
-      <i class="icon-circle-right"></i>
-    </a>
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/page/4/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span>
+    </nav>
   
-</nav>
-
-
-
-
-
-
-  
-    <div class="duoshuo"></div>
-  
-
-
 
 
           </div>
@@ -386,8 +381,8 @@ certifications
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: false,
-		isPost: true,
+		isHome: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
